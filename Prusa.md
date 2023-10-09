@@ -9,7 +9,7 @@ Download and install Python 3.11 or later from the [Official website](https://ww
 ## 2.Plugin installation
 Download and install Prusa software from the [Official website](https://www.prusa3d.com/page/prusaslicer_424/)
 
-Download the plugin package [plugin package V1.3.6](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.6/GmakerWifiSD1.3.6.zip) Extract the files to a suitable folder (do not place them in folders with special characters)
+Download the plugin package [plugin package V1.3.7](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.7/GmakerWifiSD1.3.7.zip) Extract the files to a suitable folder (do not place them in folders with special characters)
 
 ## 3.Set Plugin 
 
@@ -34,7 +34,7 @@ If this is the first time using the search button to locate the device, enter th
 
 # Prusa plugin installation on Mac OS
 
-1. Download the plugin [V1.3.6](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.6/GmakerWifiSD1.3.6.zip),Download package and release it to any directory (preferably the path should not contain special characters)
+1. Download the plugin [V1.3.7](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.7/GmakerWifiSD1.3.7.zip),Download package and release it to any directory (preferably the path should not contain special characters)
 
 2. Install Python 3.11, [Download](https://www.python.org/downloads/release/python-3114/ ) from official website, install Python according to the default options. After the download is completed, start the installation as shown in the following figure, keep clicking continue and the last step is complete.
 
