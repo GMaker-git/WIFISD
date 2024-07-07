@@ -70,6 +70,8 @@ The WIFI box was designed for all printers, and any printer with a card slot can
 
 - ELEGOO  Neptune 3 Pro/Max/Plus
 
+- ELEGOO  Neptune 4 Pro/Plus(USB Version)
+
 - Anycubic Kobra 2/Max/go
 
 - CREALITY 3D ENDER-3 S1/Pro/Plus
@@ -117,6 +119,18 @@ Go to [Prusa slicing plugin installation](Prusa.md)
 
 ---
 
+## Orca slicing plugin installation
+
+
+Go to [Orca slicing plugin installation](Orca.md)
+
+
+---
+
+## Upload independently without using slicing software
+[Independent Usage Guide](Single.md)
+
+---
 
 ## Manually adding an IP address
 
@@ -148,3 +162,19 @@ Answer: There are two possible scenarios. The first is that the WIFI signal is t
 **4. Question: Why is the printer screen not displaying the latest file after transferring the file**
 
 Answer: When the WIFI box is working normally, after transferring the file, it will automatically notify the printer that the file has been updated and automatically refresh the file list. This function can be achieved without brushing the printer firmware. If there are two possible situations of not refreshing, the first is that the plug inserted into the printer card slot is not tightly inserted, You can try unplugging and plugging it in again (pushing the plug in again to make the plug naturally pop up, and then plugging it in again). The second scenario is that some printer file lists are not automatically refreshed but manually refreshed, similar to Anycubic's Kobra series. You need to click refresh on the screen to refresh the files
+
+**5. Question: Why is there an error message indicating that the remote host has closed the connection at the beginning of file transfer**
+
+
+Answer: When the transmission starts, the WIFI box starts to write the transmission file to the card, but if the write fails, the transmission link will be closed. The reason for this may be that the SD card is not securely inserted or not formatted. Please remove the card, format it as FAT32, set the sector to 32K, and then reinsert it into the WIFI box
+
+**7. Question: My machine is not transmitting Gcode files, how can I choose other format files**
+
+
+Answer: When selecting files, the bottom right corner can filter file types, as shown in the following figure:
+![file](img/fileselect.png "file")
+
+
+**8,Question: I am a 3D printing farmer, what should I do if I need to transfer batch files**
+
+Answer: If you have any application requirements, please send them via email gmakerbenny@gmail.com Contact me, thank you for your feedback
