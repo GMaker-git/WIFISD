@@ -2,7 +2,7 @@
 # Orca plugin installation on Windows 8/10/11 OS
 
 ## 1.Download transmission software
-Download transmission software [Download](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.10/WifiBox.exe),Save it to your computer.
+Download transmission software [Download](https://github.com/GMaker-git/WIFISD/releases/download/v1.3.20/WifiBox1.3.20.exe),Save it to your computer.
 
 ## 2.Set Plugin 
 
